@@ -1,0 +1,38 @@
+{
+    "name": "socket-sync-buffer",
+    "version": "1.6.2",
+    "description": "promise wrap for Net.socket",
+    "type": "module",
+    "main": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "node ./script/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mailhonor/node-socket-sync-buffer.git"
+    },
+    "keywords": [
+        "promise",
+        "sync",
+        "socket"
+    ],
+    "author": {
+        "name": "linuxmail",
+        "email": "eli960@qq.com",
+        "url": "https://github.com/mailhonor/node-socket-sync-buffer"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mailhonor/node-socket-sync-buffer/issues"
+    },
+    "homepage": "https://github.com/mailhonor/node-socket-sync-buffer/",
+    "devDependencies": {
+        "@types/node": "^20.17.19",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    },
+    "files": [
+        "dist/"
+    ]
+}
